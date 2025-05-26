@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #C9D791;
+    color: #000000;
+    line-height: 1.6;
+    padding: 1rem;
+  }
+  
+  header {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #E98AB6;
+  }
+  
+  header h1 {
+    font-size: 1.8rem;
+  }
+  .avatar{
+    width: 20rem;
+  }
+
+  #portfolio{
+    display: flex;
+    justify-content: center;
+  }
+  h2{
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  section {
+    margin: 2rem 0;
+  }
+  
+  section h2 {
+    font-size: 1.5rem;
+    color: #d46a6a;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 600px) {
+    body {
+      padding: 2rem 5rem;
+    }
+  }
+  
+
